@@ -2,7 +2,7 @@
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using TodoApis.Models;
 
-namespace TodoApis;
+namespace TodoApis.Data;
 
 public class TodoEntityConfigurations : IEntityTypeConfiguration<Todo>
 {
